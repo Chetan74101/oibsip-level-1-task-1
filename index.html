@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+        font-family: 'Times New Roman', Times, serif;
+      background-color: #533777;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      background-image: url('https://www.oneeducation.org.uk/wp-content/uploads/2022/12/Hero-Section-Background.jpg');
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #000000;
+    }
+    .features {
+      background-color: #f4f4f4;
+      padding: 50px 0;
+      text-align: center;
+    }
+    footer {
+      background-color: #586cc5;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      bottom: 0;
+      width: 100%;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Our Landing Page</h1>
+</header>
+
+<section class="hero">
+  <h2>Discover Amazing Products</h2><br><br>
+  <p> Find the best products for your needs </p><br><br>
+  <a href="#features" class="btn"> Learn More</a>
+</section>
+
+<section id="features" class="features">
+  <h2>Features</h2>
+  <h4>Here are some of the features of our product:</h4>
+  <ul>
+    <li>Energy efficiency: This feature measures how much electricity the product consumes compared to its output or performance. Energy-efficient products can save money and reduce environmental impact by using less electricity.</li><br>
+    <li>Safety: This feature refers to how well the product protects the user and the environment from potential hazards such as electric shocks, fires, or explosions. Safety features may include fuses, circuit breakers, insulation, grounding, and warning labels.</li><br>
+    <li>Durability: This feature indicates how long the product can last without breaking down or losing its functionality. Durable products can withstand wear and tear, extreme temperatures, moisture, and other factors that may damage them.</li><br>
+    <li>Functionality: This feature describes how well the product performs its intended task or meets the user’s needs. Functionality features may include speed, power, accuracy, reliability, versatility, and user-friendliness.</li><br>
+    <li>Design: This feature reflects how the product looks and feels to the user. Design features may include size, shape, color, weight, texture, and aesthetics.</li>
+</ul>
+</section>
+
+<footer>
+  <p>&copy; 2024 <b><u>SOCTN GROUP</u></b>. All rights reserved.</p>
+</footer>
+
+<script>
+  document.querySelector('.btn').addEventListener('click', function() {
+    alert('You clicked the Learn More button!');
+  });
+</script>
+
+</body>
+</html>
